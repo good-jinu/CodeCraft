@@ -5,3 +5,12 @@ The goal of this project is to create a web editor that allows users to build HT
 In addition, the editor will have a feature description text function that allows users to input feature descriptions and have the editor generate the corresponding code. This function will be powered by the ChatGPT API, which uses artificial intelligence to understand natural language and generate appropriate responses.
 
 Overall, this project aims to make web development more accessible to users who may not have extensive coding experience by providing an intuitive visual interface and a simple feature description text function.
+
+# Get started
+
+1. install docker
+2. execute /DB/init.sh
+```sh
+cd DB
+./init.sh
+```
