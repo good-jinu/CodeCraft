@@ -9,11 +9,11 @@ Overall, this project aims to make web development more accessible to users who 
 # Get started
 
 1. install docker
-2. 
+2. init mysql
 
 Window : execute /DB/init.sh
-
 Mac OS : sh init.sh
+
 ```sh
 cd DB
 ./init.sh
