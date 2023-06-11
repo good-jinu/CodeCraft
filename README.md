@@ -12,6 +12,7 @@ Overall, this project aims to make web development more accessible to users who 
 2. init mysql
 
 Window : execute /DB/init.sh
+
 Mac OS : sh init.sh
 
 ```sh
