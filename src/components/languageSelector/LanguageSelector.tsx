@@ -6,7 +6,6 @@ const LanguageSelector = () => {
   const [selectedLanguage, setSelectedLanguage] = useState(languageList[0]);
 
   const handleLanguageChange = (language: string) => {
-    console.log(language);
     setSelectedLanguage(language);
   };
 
