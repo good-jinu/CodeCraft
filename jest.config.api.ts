@@ -1,7 +1,7 @@
 export default {
   rootDir: ".",
   roots: ["<rootDir>"],
-  testMatch: ["**/*.test.ts(x)?"],
+  testMatch: ["**/api/**/*.test.ts"],
   transform: {
     "^.+\\.tsx?$": "babel-jest",
   },
@@ -10,5 +10,4 @@ export default {
   moduleNameMapper: {
     "@/(.*)$": "<rootDir>/src/$1",
   },
-  // testEnvironment: "jsdom",
 };

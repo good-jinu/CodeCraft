@@ -7,7 +7,9 @@
     "build": "cp ./.env.prod ./.env && next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "cp ./.env.prod ./.env && jest --detectOpenHandles"
+    "test": "npm run test:api && npm run test:dom",
+    "test:api": "cp ./.env.prod ./.env && jest --config=jest.config.api.ts",
+    "test:dom": "cp ./.env.prod ./.env && jest --config=jest.config.dom.ts"
   },
   "dependencies": {
     "@babel/preset-env": "^7.22.5",
